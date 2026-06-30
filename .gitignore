@@ -1,0 +1,12 @@
+node_modules/
+.env
+
+# Demo podaci se generisu pri prvom pokretanju (npm run seed) - ne komitovati stvarne podatke
+data/*.json
+backups/*
+
+!data/.gitkeep
+!backups/.gitkeep
+
+*.log
+.DS_Store
